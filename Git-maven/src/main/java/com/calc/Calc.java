@@ -8,4 +8,10 @@ public class Calc
 		return result;
 	}
 
+	public int mul(int x,int y)
+	{
+		int r=x*y;
+		return r;
+	}
+	
 }
