@@ -29,10 +29,17 @@ public class Calc
 	
 	public static void main(String[] args) {
 		Calc c=new Calc();
-		c.add(501, 5456);
-		c.div(524,78);
-		c.sub(452, 40);
-		c.mul(70, 60);
+		int k=c.add(501, 5456);
+	float l=c.div(524,78);
+		int a=c.sub(452, 40);
+		int m=c.mul(70, 60);
+		System.out.println("addition=" +k);
+		System.out.println("substraction is="+a);
+		System.out.println("multiplication is="+m);
+		System.out.println("division is="+l);
+		
+		
+		
 	}
 	
 }
