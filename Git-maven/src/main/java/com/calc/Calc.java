@@ -14,4 +14,25 @@ public class Calc
 		return r;
 	}
 	
+	public int sub(int x,int y)
+	{
+		int r=x-y;
+		return r;
+	}
+	
+	
+	public float div(int x,int y)
+	{
+		float r=x/y;
+		return r;
+	}
+	
+	public static void main(String[] args) {
+		Calc c=new Calc();
+		c.add(501, 5456);
+		c.div(524,78);
+		c.sub(452, 40);
+		c.mul(70, 60);
+	}
+	
 }
