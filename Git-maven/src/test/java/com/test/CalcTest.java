@@ -2,7 +2,7 @@ package com.test;
 
 import junit.framework.Assert;
 
-import org.junit.BeforeClass;
+import org.junit.Before;
 import org.junit.Test;
 
 import com.calc.Calc;
@@ -10,7 +10,7 @@ import com.calc.Calc;
 public class CalcTest
 {
 	Calc c=null;
-	@BeforeClass
+	@Before
 	public void setup()
 	{
 		c=new Calc(); 
